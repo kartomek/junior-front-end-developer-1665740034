@@ -1,0 +1,65 @@
+.TaskLists{
+    background-color: white;
+    width: 320px;
+    height: 100vh
+}
+
+.TaskLists-header{
+    height: 65px;
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.TaskLists-content-element-title-done,
+.TaskLists-content-element-title-progress,
+.TaskLists-content-element-title-closed{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.TaskLists-content-element-title-progress{
+    font-weight: 700;
+}
+
+.TaskLists-content-element-title-closed{
+    color: rgb(174,181,193);
+}
+
+.TaskLists-content{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.TaskLists-content-element{
+    height: 35px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.TaskLists-content-element-done,
+.TaskLists-content-element-progress,
+.TaskLists-content-element-closed
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    aspect-ratio: 1/1;
+}
+
+.TaskLists-content-element-done{
+    background-color: rgb(237,249, 242);
+}
+
+.TaskLists-content-element-progress{
+    background-color:  blue;
+}
+
+.TaskLists-content-element-closed{
+    background-color:  rgb(244,245,247);
+}
