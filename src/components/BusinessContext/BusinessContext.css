@@ -1,0 +1,25 @@
+.BusinessContext{
+    width: 1040px;
+    height: 100vh;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.BusinessContext-header{
+    height: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.BusinessContext-header-content{
+    padding-left: 48px;
+    text-transform: uppercase;
+    color: blue;
+    display: flex;
+    gap: 16px
+}
+
+.BusinessContext-content{
+    display: flex;
+    gap: 20px;
+}

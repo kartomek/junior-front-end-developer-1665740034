@@ -4,37 +4,12 @@ import './TaskLists.css';
 import IconMark from '../../svg/mark.svg'
 import IconArrow from '../../svg/arrow.svg'
 import IconPadlock from '../../svg/padlock.svg'
+//provider
+import { useProvider} from '../../providers/AppContext';
 
 const TaskLists = () => {
 
-//data
-const data = [
-    {
-        title: 'Appliction setup',
-        status: 'DONE',
-        context: []
-    }, 
-    {
-        title: 'Static books list',
-        status: 'DONE',
-        context: []
-    }, 
-    {
-        title: 'Administration panel',
-        status: 'DONE',
-        context: []
-    }, 
-    {
-        title: 'Connect admin with frontend',
-        status: 'PROGRESS',
-        context: []
-    }, 
-    {
-        title: 'Book review feature',
-        status: 'CLOSED',
-        context: []
-    }
-]
+    const {data} = useProvider();
 
     return(
         <div className='TaskLists'>

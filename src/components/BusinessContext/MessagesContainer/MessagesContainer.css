@@ -1,0 +1,13 @@
+.MessagesContainer{
+    margin-left: 2px;
+    height: calc(100vh - 70px);
+    background-color: rgb(244,245,247);
+    width: 312px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+    flex-shrink: 0;
+}

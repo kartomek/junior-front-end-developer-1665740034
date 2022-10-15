@@ -1,7 +1,8 @@
 .TaskLists{
     background-color: white;
     width: 320px;
-    height: 100vh
+    height: 100vh;
+    border-radius: 5px;
 }
 
 .TaskLists-header{
