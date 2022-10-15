@@ -12,61 +12,113 @@ let data = [
         status: 'DONE',
         context: [{
             id: 0,
-            title: 'Titleefnkwnkfnweknkfnwejfnwjfnewfnj',
-            content: 'Lorem ipsum dolor sit amet',
+            title: 'Title 1',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
             author: 'Tomasz Karwowski',
             created_at: '2022-10-14',
-            status: 'READ'
+            status: 'NEW'
         },
         {
             id: 1,
-            title: 'Titleefnkwnkfnweknkfnwejfnwjfnewfnj',
-            content: 'Lorem ipsum dolor sit amet',
-            author: 'Tomasz Karw',
+            title: 'Title 2',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
             created_at: '2022-10-14',
             status: 'NEW'
+        },
+        {
+            id: 2,
+            title: 'Title 3',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'READ'
         }]
     }, 
     {
         id: 1,
         title: 'Static books list',
         status: 'DONE',
-        context: []
+        context: [{
+            id: 0,
+            title: 'Title 1',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'NEW'
+        },
+        {
+            id: 1,
+            title: 'Title 2',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'READ'
+        }]
     }, 
     {
         id: 2,
         title: 'Administration panel',
         status: 'DONE',
-        context: []
+        context: [
+        {
+            id: 0,
+            title: 'Title 1',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'NEW'
+        },
+        {
+            id: 1,
+            title: 'Title 2',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'READ'
+        },
+        {
+            id: 2,
+            title: 'Title 3',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'NEW'
+        },
+        {
+            id: 3,
+            title: 'Title 4',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'READ'
+        }]
     }, 
     {
         id: 3,
         title: 'Connect admin with frontend',
         status: 'PROGRESS',
-        context: []
+        context: [{
+            id: 0,
+            title: 'Title 1',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'READ'
+        }]
     }, 
     {
         id: 4,
         title: 'Book review feature',
         status: 'CLOSED',
-        context: [
-            {
-                id: 0,
-                title: 'Titleefnkwnkfnweknkfnwejfnwjfnewfnj',
-                content: 'Lorem ipsum dolor sit amet',
-                author: 'Tomasz Karwowski',
-                created_at: '2022-10-14',
-                status: 'READ'
-            },
-            {
-                id: 1,
-                title: 'Titleefnkwnkfnweknkfnwejfnwjfnewfnj',
-                content: 'Lorem ipsum dolor sit amet',
-                author: 'Tomasz Karw',
-                created_at: '2022-10-14',
-                status: 'NEW'
-            }
-        ]
+        context: [{
+            id: 0,
+            title: 'Title 1',
+            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod nisi. Integer in neque volutpat quam efficitur rhoncus sed vitae mauris. Vivamus eget sem at leo accumsan mollis. Sed in faucibus sapien. In a erat eget velit placerat suscipit. Nam blandit dolor tortor, sit amet fermentum nulla euismod sit.',
+            author: 'Tomasz Karwowski',
+            created_at: '2022-10-14',
+            status: 'NEW'
+        }]
     }
 ]
 

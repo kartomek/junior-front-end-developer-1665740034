@@ -4,6 +4,7 @@
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .MessageCard.MessageCardOpen{
@@ -44,6 +45,7 @@
 .MessageCard-text{
     margin-top: 5px;
     font-size: 13px;
+    height: 48px;
     color: gray;
     text-overflow: ellipsis;
     overflow: hidden;

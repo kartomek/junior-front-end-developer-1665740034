@@ -15,7 +15,15 @@ const TaskLists = () => {
     const navigate = useNavigate();
 
     const handleClick = index =>{
-        if(data[index].status !== 'CLOSED') navigate(`/${data[index].id}`)
+        if(data[index].status !== 'CLOSED'){
+            for(const element of data[index].context){
+                if(element.status === 'READ'){
+                    navigate(`/${data[index].id}/${element.id}`)
+                    return;
+                }
+            }
+            navigate(`/${data[index].id}`)
+        }
     }
 
     return(
