@@ -15,7 +15,7 @@ const MessagesContainer = () => {
         <div className='MessagesContainer'>
             {data[context_id].context.map((el, index) => {
                 return(
-                    <MessageCard key={index} data={el}/>
+                    <MessageCard key={index} element={el}/>
                 )
             })}
         </div>

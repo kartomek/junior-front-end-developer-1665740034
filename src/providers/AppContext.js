@@ -16,7 +16,7 @@ let data = [
             content: 'Lorem ipsum dolor sit amet',
             author: 'Tomasz Karwowski',
             created_at: '2022-10-14',
-            status: 'OPEN'
+            status: 'READ'
         },
         {
             id: 1,
@@ -49,7 +49,24 @@ let data = [
         id: 4,
         title: 'Book review feature',
         status: 'CLOSED',
-        context: []
+        context: [
+            {
+                id: 0,
+                title: 'Titleefnkwnkfnweknkfnwejfnwjfnewfnj',
+                content: 'Lorem ipsum dolor sit amet',
+                author: 'Tomasz Karwowski',
+                created_at: '2022-10-14',
+                status: 'READ'
+            },
+            {
+                id: 1,
+                title: 'Titleefnkwnkfnweknkfnwejfnwjfnewfnj',
+                content: 'Lorem ipsum dolor sit amet',
+                author: 'Tomasz Karw',
+                created_at: '2022-10-14',
+                status: 'NEW'
+            }
+        ]
     }
 ]
 

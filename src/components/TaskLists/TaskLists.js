@@ -6,10 +6,17 @@ import IconArrow from '../../svg/arrow.svg'
 import IconPadlock from '../../svg/padlock.svg'
 //provider
 import { useProvider} from '../../providers/AppContext';
+//libs
+import { useNavigate } from 'react-router-dom';
 
 const TaskLists = () => {
 
     const {data} = useProvider();
+    const navigate = useNavigate();
+
+    const handleClick = index =>{
+        if(data[index].status !== 'CLOSED') navigate(`/${data[index].id}`)
+    }
 
     return(
         <div className='TaskLists'>
@@ -22,6 +29,7 @@ const TaskLists = () => {
                         <div 
                             key={index}
                             className='TaskLists-content-element'
+                            onClick={() => handleClick(index)}
                         >
                             {element.status === 'DONE' ? 
                                 (
